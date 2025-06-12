@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyBrand</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Welcome to MyBrand</h1>
+      <p>Your success starts here.</p>
+      <a href="#features" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <section id="features" class="section">
+    <h2>Features</h2>
+    <div class="features">
+      <div class="card">Fast Performance</div>
+      <div class="card">Responsive Design</div>
+      <div class="card">Easy Customization</div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email us at: <a href="mailto:info@mybrand.com">info@mybrand.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MyBrand. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
